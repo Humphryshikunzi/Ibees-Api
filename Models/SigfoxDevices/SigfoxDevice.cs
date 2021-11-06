@@ -8,8 +8,8 @@
         public string DeviceTypeId { get; set; }
         public double Temp { get; set; }
         public double Hum { get; set; }
-        public double SmokeLevel {get;set;}
-        public int QueenState { get; set; }
-        public int Knock { get; set; }
+       // public double SmokeLevel {get;set;}
+       //public int QueenState { get; set; }
+       //public int Knock { get; set; }
     }
 }

@@ -307,4 +307,4 @@ C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\Tra
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.pdb
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.genruntimeconfig.cache
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\bin\Debug\netcoreapp3.1\Docs\IbeesSigfoxCallback.json
-C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.csproj.CopyComplete
+C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.csproj.AssemblyReference.cache

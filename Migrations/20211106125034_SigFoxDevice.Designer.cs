@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrackTileBackend;
 
 namespace TrackTileBackend.Migrations
 {
     [DbContext(typeof(IbeesDbContext))]
-    partial class TrackTileDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211106125034_SigFoxDevice")]
+    partial class SigFoxDevice
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
