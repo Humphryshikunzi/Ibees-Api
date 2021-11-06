@@ -15,7 +15,7 @@ namespace TrackTileBackend.IRepositories
 
 
         //For Sigfox
-        Task AddSigfoxDevice(SigfoxDevice sigfoxDevice);
+        Task AddSigfoxDevice(SigfoxDeviceModel sigfoxDevice);
         IEnumerable<SigfoxDevice> GetSigfoxDevices();
         IEnumerable<SigfoxDevice> GetSomeSigfoxDevicesData(int from, int to);
         IEnumerable<SigfoxDevice> GetLastElements(int totalNo);

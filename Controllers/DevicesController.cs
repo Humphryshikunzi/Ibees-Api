@@ -100,9 +100,9 @@ namespace  TrackTileBackend.Controllers
 
         [HttpPost("sigfox/add")]
         [AllowAnonymous]
-        public async Task<ActionResult> SaveSigfoxDevice(SigfoxDevice sigfoxDevice)
+        public async Task<ActionResult> SaveSigfoxDevice(SigfoxDeviceModel sigfoxDevice)
         {
-
+            
             await _devicesRepository.AddSigfoxDevice(sigfoxDevice);
 
             //This code sends me a message before saving to database

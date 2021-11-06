@@ -45,10 +45,20 @@ namespace TrackTileBackend.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task AddSigfoxDevice(SigfoxDevice sigfoxDevice)
+        public async Task AddSigfoxDevice(SigfoxDeviceModel sigfoxDevice)
         {
-             //EmailServices.MailTestForSigfox(sigfoxDevice);
-            _dbContext.SigfoxDevices.Add(sigfoxDevice);
+            //EmailServices.MailTestForSigfox(sigfoxDevice);
+            SigfoxDevice sigfoxDeviceToSave = new SigfoxDevice()
+            {
+                Id = 0,
+                Device = sigfoxDevice.Device,
+                DeviceTypeId = sigfoxDevice.DeviceTypeId,
+                SeqNumber = sigfoxDevice.SeqNumber,
+                Time = sigfoxDevice.Time,
+                Hum = sigfoxDevice.Hum,
+                Temp = sigfoxDevice.Temp
+            };
+            _dbContext.SigfoxDevices.Add(sigfoxDeviceToSave);
             await _dbContext.SaveChangesAsync();
         }
 
