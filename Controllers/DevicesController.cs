@@ -102,7 +102,11 @@ namespace  TrackTileBackend.Controllers
         [AllowAnonymous]
         public async Task<ActionResult> SaveSigfoxDevice(SigfoxDevice sigfoxDevice)
         {
+
+            await _devicesRepository.AddSigfoxDevice(sigfoxDevice);
+
             //This code sends me a message before saving to database
+            /*
             #region Send Message to IBees
             // Get credentials for Twilio
             var twilioCredentials = _configuration.GetSection("TwilioCredentials");
@@ -229,8 +233,7 @@ namespace  TrackTileBackend.Controllers
                 }
             }
             #endregion
-
-            await _devicesRepository.AddSigfoxDevice(sigfoxDevice);
+            */
             return Ok(sigfoxDevice);
         }
 

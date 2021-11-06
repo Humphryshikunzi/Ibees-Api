@@ -1,0 +1,11 @@
+{
+  "device": "{device}",
+  "time": "{time}",
+  "seqNumber": "{seqNumber}",
+  "deviceTypeId": "{deviceTypeId}",
+  "temp": { "customData#temp" },
+  "hum": { "customData#hum" },
+  "smokeLevel": { "customData#Smoke_level" },
+  "queenState": { "customData#Queen_state" },
+  "knock": { "customData#Knock" }
+}

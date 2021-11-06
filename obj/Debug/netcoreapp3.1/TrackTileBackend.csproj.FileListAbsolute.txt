@@ -293,7 +293,6 @@ C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\bin\Debug\netcoreapp3.1\run
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.csproj.AssemblyReference.cache
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.AssemblyInfoInputs.cache
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.AssemblyInfo.cs
@@ -307,3 +306,5 @@ C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\Tra
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.dll
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.pdb
 C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.genruntimeconfig.cache
+C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\bin\Debug\netcoreapp3.1\Docs\IbeesSigfoxCallback.json
+C:\Users\humph\Desktop\Deepsoft\Projects\Ibees\Ibees\obj\Debug\netcoreapp3.1\TrackTileBackend.csproj.CopyComplete
