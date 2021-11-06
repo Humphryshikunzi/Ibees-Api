@@ -9,9 +9,9 @@ namespace TrackTileBackend.Repositories
 {
     public class TtnDeviceRepository : ITtnDeviceRepository
     {
-        private readonly TrackTileDbContext _trackTileDbContext;
+        private readonly IbeesDbContext _trackTileDbContext;
 
-        public TtnDeviceRepository(TrackTileDbContext trackTileDbContext)
+        public TtnDeviceRepository(IbeesDbContext trackTileDbContext)
         {
             this._trackTileDbContext = trackTileDbContext;
         }

@@ -26,12 +26,12 @@ namespace TrackTileBackend.Controllers
 
         #region fields
         private SignInManager<AppUser> _signInManager;
-        private  TrackTileDbContext  _trackTileDbContext;
+        private  IbeesDbContext  _trackTileDbContext;
         private readonly UserManager<AppUser> _userManager;
         private readonly AppSettings _appSettings;
         #endregion
 
-        public UserController(SignInManager<AppUser> signInManager, TrackTileDbContext trackTileDbContext, IOptions<AppSettings> appSettings, UserManager<AppUser> userManager)
+        public UserController(SignInManager<AppUser> signInManager, IbeesDbContext trackTileDbContext, IOptions<AppSettings> appSettings, UserManager<AppUser> userManager)
         {
             _signInManager = signInManager;
             _trackTileDbContext = trackTileDbContext;

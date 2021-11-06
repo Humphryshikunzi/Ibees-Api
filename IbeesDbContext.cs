@@ -6,9 +6,9 @@ using TrackTileBackend.Models.TtnDevices;
 
 namespace TrackTileBackend
 {
-    public class TrackTileDbContext : IdentityDbContext<AppUser>
+    public class IbeesDbContext : IdentityDbContext<AppUser>
     {
-        public TrackTileDbContext(DbContextOptions<TrackTileDbContext> dbContextOptions) : base(dbContextOptions)
+        public IbeesDbContext(DbContextOptions<IbeesDbContext> dbContextOptions) : base(dbContextOptions)
         {
 
         }  

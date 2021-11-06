@@ -10,8 +10,8 @@ namespace TrackTileBackend.Repositories
 {
     public class DevicesRepository : IDevicesRepository
     {
-        private readonly TrackTileDbContext _dbContext;
-        public DevicesRepository(TrackTileDbContext dbContext)
+        private readonly IbeesDbContext _dbContext;
+        public DevicesRepository(IbeesDbContext dbContext)
         {
             _dbContext = dbContext;
         }

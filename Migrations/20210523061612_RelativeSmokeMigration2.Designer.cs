@@ -9,7 +9,7 @@ using TrackTileBackend;
 
 namespace TrackTileBackend.Migrations
 {
-    [DbContext(typeof(TrackTileDbContext))]
+    [DbContext(typeof(IbeesDbContext))]
     [Migration("20210523061612_RelativeSmokeMigration2")]
     partial class RelativeSmokeMigration2
     {

@@ -9,7 +9,7 @@ using TrackTileBackend;
 
 namespace TrackTileBackend.Migrations
 {
-    [DbContext(typeof(TrackTileDbContext))]
+    [DbContext(typeof(IbeesDbContext))]
     [Migration("20210131095709_TtnTestDataDoubleMigration")]
     partial class TtnTestDataDoubleMigration
     {

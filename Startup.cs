@@ -31,7 +31,7 @@ namespace TrackTileBackend
         
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextPool<TrackTileDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContextPool<IbeesDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<AppUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = false;
@@ -40,7 +40,7 @@ namespace TrackTileBackend
                 options.Password.RequireUppercase = false;
                 options.Password.RequireLowercase = false;
             })
-            .AddEntityFrameworkStores<TrackTileDbContext>()
+            .AddEntityFrameworkStores<IbeesDbContext>()
             .AddDefaultTokenProviders();
 
             var appSettingsSection = Configuration.GetSection("AppSettings");
@@ -85,19 +85,19 @@ namespace TrackTileBackend
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "Tracktile",
+                        Title = "Ibees",
                         Version = "v1",
                         Contact = new OpenApiContact()
                         {
                             Email = "reaiotorg@gmail.com",
-                            Name = "infor TrackTile support",
+                            Name = "infor Ibees support",
                             // change this to a better uri
                             Url = new Uri("https://reaiot.com/contact"),
 
                         },
 
                         //change this to valid uri
-                        TermsOfService = new Uri("https://reaiot.com/tracktile/legal/terms_conditions"),
+                        TermsOfService = new Uri("https://reaiot.com/Ibees/legal/terms_conditions"),
 
                         // change this to better license
                         License = new OpenApiLicense()
@@ -105,7 +105,7 @@ namespace TrackTileBackend
                             Name = "MIT Licence",
                             Url = new Uri("https://reaiot.com/legal/licence")
                         },
-                        Description = "This Swagger  UI is for documentation for all  Tracktile " +
+                        Description = "This Swagger  UI is for documentation for all  Ibees " +
                                       "services that need backend, like Mobile apps."
 
                     });
@@ -153,7 +153,7 @@ namespace TrackTileBackend
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "TrackTile");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ibees");
                 c.RoutePrefix = string.Empty;
             });
             app.UseIpRateLimiting();
